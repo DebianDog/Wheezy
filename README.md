@@ -1,4 +1,6 @@
-# DebianDog Wheezy jwm_icewm and openbox_xfce
+# DebianDog Wheezy 
+
+jwm_icewm and openbox_xfce
 
 Click here for new packages and fixes information and download links.
 ========================================
