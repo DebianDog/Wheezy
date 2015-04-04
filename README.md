@@ -82,7 +82,3 @@ and dzz from www.debianuserforums.org
 And to Sickgut for his original idea that made possible DebianDog to exist.
 
 Toni
-
-
-
-
