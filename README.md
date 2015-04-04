@@ -1,6 +1,6 @@
 # DebianDog Wheezy 
 
-jwm_icewm and openbox_xfce
+Versions available: jwm_icewm and openbox_xfce
 
 Click here for new packages and fixes information and download links:
 
@@ -87,4 +87,4 @@ and for the valuable advices to: jbv, sfs, catsezmoo, big_bass, emil, dancytron,
 and dzz from www.debianuserforums.org
 And to Sickgut for his original idea that made possible DebianDog to exist.
 
-Toni
+Toni (aka 'saintless', DebianDog jwm_icewm maintainer)
