@@ -2,7 +2,7 @@
 
 DebianDog is very small Debian Live CD shaped to look and act like Puppy Linux. Debian structure and Debian behaviour are untouched and Debian documentation is 100% valid for DebianDog. You have access to all debian repositories using apt-get or synaptic.
 
-Several versions of DebianDog are available, or currently under develeopment, to match its standard Debian counterparts (Wheezy, Jessie, Sid etc). For each Debian version of DebianDog being developed there are two main variants for which isos are available: jwm_icewm or openbox_xfce.
+Several versions of DebianDog are currently available or under development to match its standard Debian counterparts (Wheezy, Jessie, Sid etc). For each Debian version of DebianDog being developed there are two main variants for which different isos can be downloaded: jwm_icewm or openbox_xfce.
 
 To test DebianDog for first time you need to burn it on CD and boot from it, or use DebianDog-installer (included in the iso and working from most linux systems) to make frugal install to HDD or USB, or to extract /live folder on top of a partition or USB and edit grub menu.lst.
 
