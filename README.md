@@ -3,14 +3,14 @@
 jwm_icewm and openbox_xfce
 
 Click here for new packages and fixes information and download links.
-========================================
+
 Edit: 02.02.2015 - Both DebianDog iso replaced with new versions. List of changes read here.
-========================================
+
 Edit: 14.10.2014 - Both DebianDog iso replaced with new versions. List of changes read here.
-========================================
+
 Edit: 11.08.2014: New version Porteus-Wheezy-3.13.6-openbox.iso with systemd boot enabled, kernel 3.13.6 from Porteus and modules extension changed to .xzm (like in Porteus).
 Mirror link + old versions.
-========================================
+
 Related links:
 Infinality fonts packages for Debian Wheezy (thanks to Keisha)
 DebianDog wireless LAN HowTo thread
@@ -27,11 +27,11 @@ DebianDog-Jessie-OpenBox-Test.iso
 DebianDog-SID-Test.iso (Unstable Debian) version - testing.
 DebianDog-Squeeze.iso version for old computers
 Use old Skype version after 01.08.2014
-=======================================
+
 Edit: 23.07.2014 - DebianDog changed to stable version. List of changes you can find here.
-=======================================
+
 Edit: 16.06.2014 - Both DebianDog iso replaced with new versions. List of changes read here:
-========================================
+
 First post:
 
 This is now stable version DebianDog started as Light-Wheezy+Porteus-Wheezy.
