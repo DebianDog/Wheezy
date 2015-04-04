@@ -2,11 +2,17 @@
 
 jwm_icewm and openbox_xfce
 
-Click here for new packages and fixes information and download links.
+Click here for new packages and fixes information and download links:
+
+http://murga-linux.com/puppy/viewtopic.php?p=776368#776368
 
 Edit: 02.02.2015 - Both DebianDog iso replaced with new versions. List of changes read here.
 
+http://www.murga-linux.com/puppy/viewtopic.php?p=825679#825679
+
 Edit: 14.10.2014 - Both DebianDog iso replaced with new versions. List of changes read here.
+
+http://www.murga-linux.com/puppy/viewtopic.php?p=803595#803595
 
 Edit: 11.08.2014: New version Porteus-Wheezy-3.13.6-openbox.iso with systemd boot enabled, kernel 3.13.6 from Porteus and modules extension changed to .xzm (like in Porteus).
 Mirror link + old versions.
