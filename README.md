@@ -6,5 +6,5 @@ DebianDog is very small 32-bit Debian Live CD shaped to look and act like Puppy 
 
 [Bugs and fixes information](https://github.com/DebianDog/Wheezy/issues/1)
 
-[Forum thread](http://murga-linux.com/puppy/viewtopic.php?t=99460)
+[Forum thread](http://murga-linux.com/puppy/viewtopic.php?t=93225)
 
