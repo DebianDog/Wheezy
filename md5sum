@@ -1,0 +1,43 @@
+Iso images:
+
+22c4f825777d677749ef72cf35a81e90  DebianDog-Wheezy-jwm_icewm-2015-09-02.iso
+
+3d824bb90bb2da8820634c4b84f70e2f  DebianDog-Wheezy-jwm_icewm-2015-09-02-PAE.iso
+
+5cdfd4764e9b5cbad6d69447930f4c01  DebianDog-Wheezy-openbox_xfce-2015-09-02.iso
+
+cce758ee55578b7ec578fd1cd42de472  DebianDog-Wheezy-openbox_xfce-2015-09-02-PAE.iso
+
+
+Extra modules:
+
+7723532e54443ba3ddf57ce0ce358f57  00-boot-folder-vmlinuz-initrd.squashfs
+
+2e1cc6d7bd4f13d060c309d544cc0605  00-locale-files-jwm-icewm.squashfs
+
+8190aa711c52b1d47168c5e7de59a7e9  00-locale-files-openbox_xfce.squashfs
+
+a7d187085a526c72d5523d31e5e22af9  031-firmware-porteus.squashfs
+
+b5544f653f7b203596805130c56ad7e2  06-DEVX-DebDog-2.squashfs
+
+3232614a371d1a44ee314c09d319a34a  061-man-doc-info.squashfs
+
+d678ece39d92c76d6d356dd4ee5f6465  062-AptOnCD.squashfs
+
+bfe80c1afa1a117a720f553012eedad0  09-apt-file-debdir-aptitude.squashfs
+
+071ca7272f1a23fa1723312c95ea9732  024-goffice-lupu-528JP-1.squashfs
+
+40d34a17b97d480a452f3bb413056154  064-cups.squashfs
+
+b94a0561cb97c73ffe274f06d6ef74a3  spotify-0.6.4-wine-portable.squashfs
+
+91be7851fc9160f21cd43943d93ca5fc  Spotify-0.6.4.tar.gz
+
+c48f4586d527dbdb65e12d8fabc9d148  07-vbox-light-xz.squashfs
+
+a9b1bfd224ff9b9499a611bd82730979  midori-0.5.2.squashfs
+
+
+
