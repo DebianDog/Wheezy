@@ -1,11 +1,10 @@
-# DebianDog 
+DebianDog is very small 32-bit Debian Live CD shaped to look and act like Puppy Linux. Debian structure and Debian behaviour are untouched and Debian documentation is 100% valid for DebianDog. You have access to all debian repositories using apt-get or synaptic.
 
-[Click here for more information and download links for DebianDog Wheezy version](http://www.murga-linux.com/puppy/viewtopic.php?t=93225).
+[DebianDog-Wheezy iso images 2015-09-02](https://github.com/DebianDog/Wheezy/releases/tag/v1.0)
 
-DebianDog is very small Debian Live CD shaped to look and act like Puppy Linux. Debian structure and Debian behaviour are untouched and Debian documentation is 100% valid for DebianDog. You have access to all debian repositories using apt-get or synaptic.
+[Extra squashfs modules](https://github.com/DebianDog/Wheezy/releases/tag/v0.1)
 
-Several versions of DebianDog are currently available or under development to match its standard Debian counterparts (Wheezy, Jessie, Sid etc). For each Debian version of DebianDog being developed there are two main variants for which different isos can be downloaded: jwm_icewm or openbox_xfce.
+[Bugs and fixes information](https://github.com/DebianDog/Wheezy/issues/1)
 
-To test DebianDog for first time you need to burn it on CD and boot from it, or use DebianDog-installer (included in the iso and working from most linux systems) to make frugal install to HDD or USB, or to extract /live folder on top of a partition or USB and edit grub menu.lst.
+[Forum thread](http://murga-linux.com/puppy/viewtopic.php?t=99460)
 
-DebianDog is set to autologin as root. If you like to use it as multiuser system it is recommended to start XDM login manager (currently only available only in jwm version). Just type in terminal xdm-start and reboot. xdm-stop will reverse back autologin as root.
