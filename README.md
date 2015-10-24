@@ -8,3 +8,6 @@ DebianDog is very small 32-bit Debian Live CD shaped to look and act like Puppy 
 
 [Forum thread](http://murga-linux.com/puppy/viewtopic.php?t=93225)
 
+![Jwm](https://github.com/DebianDog/Jessie/blob/master/screenshots/DebianDog-Wheezy-jwm-icewm.jpg?raw=true)
+
+![OpenBox](https://github.com/DebianDog/Jessie/blob/master/screenshots/DebianDog-Wheezy-openbox-xfce.jpg?raw=true)
