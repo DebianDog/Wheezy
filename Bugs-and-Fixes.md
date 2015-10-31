@@ -6,4 +6,10 @@ sudo apt-get update
 sudo apt-get install debdoginstallscripts
 ```
 
-**2.**
+**2.** Jwm version has xdm login manager included but it doesn't work well in OpenBox.
+In OpenBox version you can install this [slim](http://smokey01.com/saintless/DebianDog/Packages/Extra/slim_1.3.4-2-ddwheezy_i386.deb) package.
+You can stop/start it from System -> Start/Stop Slim display-manager. More information read [here.](http://murga-linux.com/puppy/viewtopic.php?p=869164#869164) Available also in debiandog-repository:
+```
+sudo apt-get update
+sudo apt-get install slim
+```
