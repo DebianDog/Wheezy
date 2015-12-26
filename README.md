@@ -1,3 +1,5 @@
+[**My thanks to Daniel Baumann! DebianDog wouldn't exist without his work.**](https://lists.debian.org/debian-live/2015/11/msg00024.html)
+
 DebianDog is very small 32-bit Debian Live CD shaped to look and act like Puppy Linux. Debian structure and Debian behaviour are untouched and Debian documentation is 100% valid for DebianDog. You have access to all debian repositories using apt-get or synaptic.
 
 [DebianDog-Wheezy iso images 2015-09-02](https://github.com/DebianDog/Wheezy/releases/tag/v1.0)
