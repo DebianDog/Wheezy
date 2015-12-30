@@ -25,3 +25,9 @@ Install fixed version from the link above or from terminal:
 sudo apt-get update
 sudo apt-get install fixdepinstall
 ```
+
+**4.** Fix for squashfs module loading scripts from Fred. [More information read here.](http://murga-linux.com/puppy/viewtopic.php?p=878996#878996)
+```
+sudo apt-get update
+sudo apt-get install sfsload portablesfs-loadsfs-fuse
+```
