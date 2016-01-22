@@ -31,3 +31,9 @@ sudo apt-get install fixdepinstall
 sudo apt-get update
 sudo apt-get install sfsload portablesfs-loadsfs-fuse
 ```
+
+**5.** Small fix for frisbee. [More information read here.](http://murga-linux.com/puppy/viewtopic.php?p=883158&sid=3588429564754e676ce49df134d930a8#883158)
+```
+sudo apt-get update
+sudo apt-get install frisbee
+```
