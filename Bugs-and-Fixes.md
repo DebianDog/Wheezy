@@ -43,3 +43,16 @@ sudo apt-get install frisbee
 sudo apt-get update
 sudo apt-get install apt2sfs
 ```
+
+**16.** With porteus-boot and only when using save on exit code upgrading libc6 could create some issues. More information and workarownd read [here](http://murga-linux.com/puppy/viewtopic.php?p=889934&sid=00f59036fe7b1df6f8bc7168fe1df597#889934) and the fix [here.](http://murga-linux.com/puppy/viewtopic.php?p=890342&sid=00f59036fe7b1df6f8bc7168fe1df597#890342)
+Install this package to fix the problem:
+```
+sudo apt-get update
+sudo apt-get install porteusbootscripts
+
+```
+Porteus-boot scripts will be upgraded to new versions with some improvements for save on exit. The changes are not well tested in DebianDog-Wheezy yet. In case you experience some problem you can downgrade the package to the previous version (it has only the fix in snapmergepuppy script for the problem described above and will restore the other scripts to the versions included in the iso):
+```
+sudo apt-get install porteusbootscripts=0.0.1
+
+```
