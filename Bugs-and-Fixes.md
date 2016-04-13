@@ -78,7 +78,7 @@ sudo apt-get install --reinstall xdm
 Or download and install the package [xdm_1.1.11-2_i386.deb](http://smokey01.com/saintless/DebianDog/Packages/Included/xdm_1.1.11-2_i386.deb)
 
 
-**10.** **Only for DebianDog-openbox_xfce version** fix for Thunar file-manager. When right-clicking on a file or folder > Properties, > Permissions, the options are disabled/greyed out. Fixed by recompiling Thunar (with patch to "not-show-root-warning") , see [Here](http://murga-linux.com/puppy/viewtopic.php?p=898519#898519) and [Here (Wheezy specific)](http://murga-linux.com/puppy/viewtopic.php?p=898806#898806) for more info.
+**10.** **Only for DebianDog-openbox_xfce version** fix for Thunar file-manager. When right-clicking on a file or folder > Properties, > Permissions, the options are disabled/greyed out. Fixed by recompiling Thunar (patched to "not-show-root-warning") , see [Here](http://murga-linux.com/puppy/viewtopic.php?p=898519#898519) and [Here (Wheezy specific)](http://murga-linux.com/puppy/viewtopic.php?p=898806#898806) for more info.
 Install first debdog-repo-updater, then:
 ```
 sudo apt-get update
