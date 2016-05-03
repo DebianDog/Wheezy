@@ -10,6 +10,7 @@ sudo apt-get remove debdoginstallscripts
 sudo apt-get install debdoginstallscripts
 ```
 In case you have some problem with this package check out for updated deb package from Fred [here.](http://murga-linux.com/puppy/viewtopic.php?p=877300&sid=7a08609033f6af763ab2acf4c3941c8c#877300)
+
 **Update**: All previous bugs are fixed now in version 1.0.8, install:
 ```
 sudo apt-get update
