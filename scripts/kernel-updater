@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# 20170701 - saintless for DebianDog. GNU GPL v3 applies. No warranty of any kind.
+
+SRC_DIR=$(pwd)
+KRN=$(uname -a | cut -d" " -f3)
+VER=$(uname -a | cut -d" " -f6)
+
+echo
+echo Running the script from "$SRC_DIR".
+
+if [ ! -f "$SRC_DIR"/vmlinuz1 ]; then
+echo "vmlinuz1 is missing."
+echo "Find it and run the script from the same directory."
+exit
+fi
+
+if [ "$(whoami)" != "root" ]; then
+echo "You have to run this script as Superuser!"
+exit
+fi
+
+# Ping your default gateway. Source: http://stackoverflow.com/a/14939373
+if ping -q -w 1 -c 1 `ip r | grep default | cut -d ' ' -f 3` > /dev/null; then
+echo "Working internet connection found."
+else
+echo "You dont have working internet connection. Exiting now."
+exit
+fi
+
+
+update_kernel () {
+mv /etc/apt/preferences /etc/apt/preferences.old
+apt-get update
+apt-get install linux-image-$(uname -r) -y
+apt-get clean
+if [ ! -f /boot/vmlinuz-$(uname -r) ]; then
+mv /etc/apt/preferences.old /etc/apt/preferences
+echo "No kernel updates found. Exiting now."
+exit
+fi
+mv "$SRC_DIR"/vmlinuz1 "$SRC_DIR"/vmlinuz1.old
+mv /boot/vmlinuz-$(uname -r) "$SRC_DIR"/vmlinuz1
+}
+
+echo
+echo "Update kernel script for DebianDog"
+echo "Make sure you use persistence first or exit now."
+echo "Or make sure to remaster the system before reboot."
+echo
+read -p "Update the kernel now (y/n)?" choose
+case "$choose" in
+  y|Y ) update_kernel;;
+  * ) echo "Exiting now.";;
+esac
+
+exit
