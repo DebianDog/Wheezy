@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# 20170701 - saintless for DebianDog. GNU GPL v3 applies. No warranty of any kind.
+
+KRN=$(uname -a | cut -d" " -f3)
+VER=$(uname -a | cut -d" " -f6)
+
+
+if [ "$(whoami)" != "root" ]; then
+echo "You have to run this script as Superuser!"
+exit
+fi
+
+make_pref () {
+if [ -f /etc/apt/preferences ]; then
+echo "Package: linux-image-$KRN
+Pin: version $VER
+Pin-Priority: 1001
+" >> /etc/apt/preferences
+else
+echo "Package: linux-image-$KRN
+Pin: version $VER
+Pin-Priority: 1001
+" > /etc/apt/preferences
+fi
+}
+
+echo
+echo "Prevent kernel apt-get upgrade in the future"
+echo "by holding the version in /etc/apt/preferences"
+echo
+read -p "Hold linux-image-$KRN-$VER (y/n)?" choose
+case "$choose" in
+  y|Y ) make_pref;;
+  * ) echo "Exiting now.";;
+esac
+
+exit
